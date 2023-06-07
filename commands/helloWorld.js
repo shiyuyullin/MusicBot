@@ -7,6 +7,6 @@ module.exports = {
 
   async execute(interaction) {
     await interaction.reply("Hi There!!");
-    console.log(interaction);
+    // console.log(interaction);
   },
 };
