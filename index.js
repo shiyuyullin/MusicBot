@@ -10,6 +10,7 @@ const TOKEN = process.env.BOT_TOKEN;
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 client.commands = new Collection();
+client.cooldowns = new Collection();
 
 console.log(__dirname);
 
